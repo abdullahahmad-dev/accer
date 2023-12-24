@@ -1,0 +1,51 @@
+* {
+
+  margin: 0px;
+}
+body{
+    text-align: center; /* للمحافظة على محاذاة العناصر النصية في المنتصف */
+
+}
+header {
+  font-family: "Roboto Slab";
+  background-color: rgb(142, 202, 230);
+  border-radius: 3px !important;
+padding: 20px; /* التباعد الداخلي للنص */
+max-width: 40%; /* أقصى عرض يمكن للعنصر أن يأخذه */
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+    max-width: 20%; /* أقصى عرض يمكن للعنصر أن يأخذه */
+    background-color: rgb(94, 96, 206);
+  margin: auto;
+  font-family: "Roboto Slab";
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+h4 {
+  font-size: 16px;
+  background-color: rgb(83, 144, 217);
+  text-align: center;
+  margin: 3px;
+  border-radius: 2px;
+  font-family: "Lato";
+}
+
+h5{
+    max-width: 50%; /* أقصى عرض يمكن للعنصر أن يأخذه */
+    background-color: rgb(78, 168, 222);
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Roboto Slab";
+  padding: 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 29px;
+}
